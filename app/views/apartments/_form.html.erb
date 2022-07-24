@@ -16,8 +16,8 @@
         <%= form.text_field :number %>
     </div>
     <div class="field">
-        <%= form.label :building %>
-        <%= form.text_field :building %>
+        <%= form.label :building_id %>
+        <%= form.select :building_id, @buidings %>
     </div>
     <div class="actions">
         <%= form.submit %>
